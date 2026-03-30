@@ -27,16 +27,15 @@ MySQL is an open-source database system used to store, manage, and retrieve stru
 ---
 
 ## 📂 Repository Contents
-
-| File Name  | Description                     |
-| ---------- | ------------------------------- |
-| script1.sh | System Identity Report          |
-| script2.sh | FOSS Package Inspector          |
-| script3.sh | Disk and Permission Auditor     |
-| script4.sh | Log File Analyzer               |
-| script5.sh | Open Source Manifesto Generator |
-| README.md  | Project documentation           |
-
+```
+OSS-Project-24BCE11352
+├── README.md
+├── SystemIdentiyReport.sh
+├── OpenSourceManifestoGenerator.sh
+├── LogFileAnalyzer.sh
+├── FOSSPackageInspector.sh
+└── DiskandPermissionAuditor.sh
+```
 ---
 
 ## ⚙️ How to Run the Scripts
