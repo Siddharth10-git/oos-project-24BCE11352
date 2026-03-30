@@ -1,11 +1,11 @@
-# Open Source Audit Project — MySQL
+# The Open Source Audit Project — A Study Of MySQL
 
 ## 👤 Student Details
 
 * **Name:** Siddharth Patel
 * **Registration Number:** 24BCE11352
 * **Course:** Open Source Software
-* **Project Title:** Open Source Audit — MySQL
+* **Project Title:** The Open Source Audit — A Study Of MySQL
 
 ---
 
@@ -27,7 +27,7 @@ MySQL is an open-source database system used to store, manage, and retrieve stru
 ---
 
 ## 📂 Repository Contents
-```
+
 OSS-Project-24BCE11352
 ├── README.md
 ├── SystemIdentiyReport.sh
@@ -35,7 +35,7 @@ OSS-Project-24BCE11352
 ├── LogFileAnalyzer.sh
 ├── FOSSPackageInspector.sh
 └── DiskandPermissionAuditor.sh
-```
+
 ---
 
 
