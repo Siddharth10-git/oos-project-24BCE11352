@@ -38,47 +38,7 @@ OSS-Project-24BCE11352
 ```
 ---
 
-## ⚙️ How to Run the Scripts
 
-### Step 1: Give Execution Permission
-
-```bash
-chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
-```
-
-### Step 2: Run Scripts
-
-#### Script 1 — System Identity Report
-
-```bash
-./script1.sh
-```
-
-#### Script 2 — FOSS Package Inspector
-
-```bash
-./script2.sh
-```
-
-#### Script 3 — Disk and Permission Auditor
-
-```bash
-./script3.sh
-```
-
-#### Script 4 — Log File Analyzer
-
-```bash
-./script4.sh /var/log/syslog error
-```
-
-#### Script 5 — Manifesto Generator
-
-```bash
-./script5.sh
-```
-
----
 
 ## 📜 Script Descriptions
 
