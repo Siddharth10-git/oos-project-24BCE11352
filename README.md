@@ -1,109 +1,42 @@
-# The Open Source Audit Project — A Study Of MySQL
+The Open Source Audit: A Study of MySQL
 
-## 👤 Student Details
+Student Details
+Name: Siddharth Patel
+Registration Number: 24BCE11352
+Course: Open Source Software
+Project Title: The Open Source Audit: A Study of MySQL
 
-* **Name:** Siddharth Patel
-* **Registration Number:** 24BCE11352
-* **Course:** Open Source Software
-* **Project Title:** The Open Source Audit — A Study Of MySQL
-
----
-
-## 📌 Project Overview
-
-This project is part of the Open Source Software course. It focuses on analyzing **MySQL**, an open-source relational database management system widely used in web applications.
+Project Overview
+This project is part of the Open Source Software course. It focuses on analyzing MySQL, an open-source relational database management system which web applications frequently use.
 
 The project includes:
+- A detailed report which covers origin and license and ethics and Linux footprint and ecosystem
+- Five shell scripts which demonstrate Linux and open-source concepts
 
-* A detailed report covering origin, license, ethics, Linux footprint, and ecosystem
-* Five shell scripts demonstrating Linux and open-source concepts
+Chosen Software: MySQL
+MySQL is an open-source database system which enables users to store and manage and retrieve structured data. It serves as a fundamental element within the LAMP stack which includes Linux Apache MySQL and PHP.
 
----
+Repository Contents
+- README.md
+- SystemIdentiyReport.sh
+- OpenSourceManifestoGenerator.sh
+- LogFileAnalyzer.sh
+- FOSSPackageInspector.sh
+- DiskandPermissionAuditor.sh
 
-## 🛠️ Chosen Software: MySQL
+Script Descriptions
 
-MySQL is an open-source database system used to store, manage, and retrieve structured data. It is a core component of the LAMP stack (Linux, Apache, MySQL, PHP).
+Script 1: System Identity Report
+The program shows system details which include kernel version and user and uptime and Linux distribution and license information. The program uses variables and command substitution and echo formatting for its operation.
 
----
+Script 2: FOSS Package Inspector
+The program first checks MySQL installation status before showing installed package information. The program uses a case statement to explain software functions. The program uses if-else and case statement and package checking as its main elements.
 
-## 📂 Repository Contents
+Script 3: Disk and Permission Auditor
+The program investigates system directories to determine their size and access rights and ownership information. The program investigates the MySQL configuration directory. The program uses for loop and awk and file checking as its main elements.
 
-OSS-Project-24BCE11352
-├── README.md
-├── SystemIdentiyReport.sh
-├── OpenSourceManifestoGenerator.sh
-├── LogFileAnalyzer.sh
-├── FOSSPackageInspector.sh
-└── DiskandPermissionAuditor.sh
+Script 4: Log File Analyzer
+The program reads a log file to compute how many times a specific word appears with "error" as its standard term. The program shows the file contents along with its recent matches. The program uses while loop and grep and counters and arguments as its primary elements.
 
----
-
-
-
-## 📜 Script Descriptions
-
-### 🔹 Script 1: System Identity Report
-
-Displays system information such as kernel version, user, uptime, Linux distribution, and license details.
-**Concepts used:** variables, command substitution, echo formatting.
-
----
-
-### 🔹 Script 2: FOSS Package Inspector
-
-Checks whether MySQL is installed and displays package details. Includes a case statement to describe the software.
-**Concepts used:** if-else, case statement, package checking.
-
----
-
-### 🔹 Script 3: Disk and Permission Auditor
-
-Analyzes system directories and shows their size, permissions, and ownership. Also checks MySQL configuration directory.
-**Concepts used:** for loop, awk, file checking.
-
----
-
-### 🔹 Script 4: Log File Analyzer
-
-Reads a log file and counts occurrences of a keyword (default: "error"). Displays summary and recent matches.
-**Concepts used:** while loop, grep, counters, arguments.
-
----
-
-### 🔹 Script 5: Open Source Manifesto Generator
-
-Generates a personalized open-source philosophy statement based on user input and saves it to a file.
-**Concepts used:** user input, file writing, string handling.
-
----
-
-## 💻 Requirements
-
-* Linux system (Ubuntu/CentOS)
-* Bash shell
-* MySQL installed (optional but recommended)
-
----
-
-## 📖 Learning Outcomes
-
-* Understanding open-source philosophy
-* Practical experience with Linux commands
-* Shell scripting skills (loops, conditions, variables)
-* Insight into MySQL and its ecosystem
-
----
-
-## 📌 Notes
-
-* All scripts are tested on a Linux environment
-* Ensure correct log file path for Script 4
-* Scripts include comments for better understanding
-
----
-
-## 🚀 Conclusion
-
-This project demonstrates both theoretical and practical understanding of open-source software using MySQL as a case study. It highlights the importance of collaboration, transparency, and freedom in software development.
-
----
+Script 5: Open Source Manifesto Generator
+Generat
